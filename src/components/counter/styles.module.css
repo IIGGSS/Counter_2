@@ -1,0 +1,106 @@
+.counter__wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.counter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.settings {
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease;
+}
+
+
+.counterButton {
+    flex: 0 0 33.333%;
+    transition: all 0.2s ease;
+}
+
+.settingsButton {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 100%;
+    background-color: #00DBDE;
+    background-image: linear-gradient(180deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.settingsButton:hover {
+    transform: scale(102%);
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -1px 0px 2px rgba(0, 0, 0, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -1px 0px 2px rgba(0, 0, 0, 0);
+
+}
+
+.settingsButton:disabled {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+.settingsButton:disabled:hover {
+    transform: none;
+}
+
+.buttonInc {
+    background-color: #00DBDE;
+    background-image: linear-gradient(180deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.buttonInc:hover {
+    transform: scale(102%);
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -1px 0px 2px rgba(0, 0, 0, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -1px 0px 2px rgba(0, 0, 0, 0);
+}
+
+.buttonInc:disabled {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+.buttonInc:disabled:hover {
+    transform: none;
+}
+
+
+.buttonReset {
+    background-color: #00DBDE;
+    background-image: linear-gradient(180deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.buttonReset:hover {
+
+    transform: scale(105%);
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -1px 0px 2px rgba(0, 0, 0, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -1px 0px 2px rgba(0, 0, 0, 0);
+}
+
+.buttonSet {
+    background-color: #00DBDE;
+    background-image: linear-gradient(180deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.buttonSet:hover {
+    transform: scale(102%);
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -1px 0px 2px rgba(0, 0, 0, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -1px -1px 0px 2px rgba(0, 0, 0, 0);
+}
+
+.buttons {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    flex: 0 0 100%;
+    display: flex;
+    height: 50%;
+}

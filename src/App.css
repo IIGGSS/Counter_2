@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.App {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 38px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 300px;
+}
+
